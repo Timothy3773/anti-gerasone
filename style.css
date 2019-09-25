@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&effect=anaglyph');
+
+html, body {
+    margin: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/474996423864352789/626500872557559821/r-design-crystal-background-dark-compressor.png");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Open Sans'
+}
+
+.navbar {
+    border-radius: 0 0 15px 15px;
+    border-bottom: 4px solid rgb(92, 92, 92);
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(61, 61, 61);
+}
+
+.navbar h {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cr {
+    text-align: center;
+}
+
+hr.nl {
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    width: 200px;
+}
