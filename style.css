@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&effect=anaglyph');
 
-html, body {
+body {
     margin: 0;
     background-image: url("https://cdn.discordapp.com/attachments/474996423864352789/626500872557559821/r-design-crystal-background-dark-compressor.png");
     background-repeat: no-repeat;
@@ -22,6 +22,10 @@ html, body {
     font-weight: 600;
 }
 
+h2.cr {
+    color: rgb(163, 163, 163);
+}
+
 .cr {
     text-align: center;
 }
@@ -30,4 +34,11 @@ hr.nl {
     border: 5px solid greenyellow;
     border-radius: 15px;
     width: 200px;
+}
+
+p.para {
+    font-size: 23px;
+    font-weight: 400;
+    max-width: 850px;
+    color: rgb(194, 194, 194);
 }

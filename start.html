@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anti-Gerasone</title>
+    <script src="https://kit.fontawesome.com/ee21f0e532.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body class="bod">
+   <center>
+       <h1>Please enter the passcode.</h1>
+       <br>
+       <input type="password" id="pw" maxlength="4" style="width: 150px; font-size: 35px; background-color: rgb(61, 61, 61); border-color: rgb(92, 92, 92); border-style: solid; border-radius: 15px; border-width: 2px; color: greenyellow; outline: none; text-align: center;">
+       <br>
+       <h1 style="color: rgb(255, 89, 89)"><i class="fas fa-exclamation-triangle"></i> O5 Restricted <i class="fas fa-exclamation-triangle"></i></h1>
+       <h1 style="max-width: 800px;">This document has been restricted to O5 personnel. Unathorised access will result in <span style="color: rgb(255, 89, 89); text-decoration: underline;">memetic termination.</span></h1>
+   </center>
+</body>
+<script>
+let inp = document.getElementById("pw");
+inp.addEventListener("keypress", (txt) => {
+    if (txt.key == "Enter"){
+        console.log(inp.value)
+    }
+})
+</script>
+</html>
