@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-image: url("https://cdn.discordapp.com/attachments/474996423864352789/626500872557559821/r-design-crystal-background-dark-compressor.png");
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family: 'Open Sans'
 }
